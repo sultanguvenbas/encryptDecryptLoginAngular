@@ -1,0 +1,33 @@
+.box{
+  flex:1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+input{
+  outline: none;
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 10px;
+  box-shadow: -6px 8px 20px 0px;
+  border: none;
+  background: #e59340;
+}
+input:hover{
+  background: #cb7827;
+}
+button{
+  cursor: pointer;
+  height: 2rem;
+  width: 4rem;
+  border: none;
+  border-radius: 10px;
+  background: #e59340;
+  box-shadow: -6px 8px 20px 0px;
+}
+button:hover{
+  background: #cb7827;
+}
